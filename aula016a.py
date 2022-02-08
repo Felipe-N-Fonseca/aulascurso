@@ -3,8 +3,9 @@
 # propriedade .index(?) da tupla mostra a posição de algo na tupla
 # .index(?, 4) procura apartir da posição 4
 # nas tuplas é possivel usar dados de diferentes formatos (str, floor,)
-# função del(?) apaga completamente da memoria um objeto
-# função enumerate no lugar de range me da tanto o dado quanto a posição
+# função del(?) apaga completamente a tupla
+# função enumerate no lugar de range me da tanto o dado quanto a posição, dando a primeira variavel a posição
+# que está e na segunda o dado dessa posição.
 # max(?) e min(?) são funções pra tuplas e ja mostram o valor que deseja
 lanche  = ('hamburguer', 'suco', 'pudim', 'pizza')
 print(lanche)

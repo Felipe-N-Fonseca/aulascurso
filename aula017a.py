@@ -1,7 +1,7 @@
 # listas: são variaveis compostas mutaveis
 # para adicionar novos elementos na lista se usa o comando .append('?'), adicionando ao fim da lista
 # para adicionar um item antes de algo se usa o .insert(0,'?'), assim todos os ourtos itens vão para o lado
-# e o iten inserido assume a posição escolhida
+# e o item inserido assume a posição escolhida
 # para apagar itens eistem alguns metodos:
 # del lanche[?] usa o numero pra apagar
 # lanche.pop(?) usado normalmente pra apagar o ultimo mas usando o numero no parenteses se escolhe especificamente,

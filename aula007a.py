@@ -2,12 +2,14 @@
 # //divisão inteira, % resto da divisão
 # == para o resultado
 # ordem de precedencia: 1° (); 2° **; 3° *, /, //, %; 4° +, -;
-# quando quiser fazer uma raiz, use (1/número), porcentagem = (numero por cento) / 100.
-# print('q' *5) cria 5 vezes, : coloca entre numero de caracteres, > alinhado a direita,
-# < alinhado a esquerda, ^ centralizado, (= entre iguais)
+# quando quiser fazer uma raiz, use n**(1/2), porcentagem = (numero por cento) / 100.
+# print('q' *5) cria 5 vezes,
+# em formatação ":" delimita o número de caracteres "print(f'{:20}')" , > alinhado a direita "print(f'{:>20}')",
+# < alinhado a esquerda "print(f'{:<20}')", ^ centralizado "print(f'{:^20}')",
+# se colocar um simbolo antes do alinhamento, ele assumira os espaços brancos "print(f'{:=^20}')"
 # colocar end='' no ptint para não quebrar linha, e para quebrar \n.
-n1 = int(input('digite um número'))
-n2 = int(input('digite mais um'))
+n1 = int(input('digite um número: '))
+n2 = int(input('digite mais um: '))
 ns = n1 + n2
 nm = n1 * n2
 nd = n1 / n2
